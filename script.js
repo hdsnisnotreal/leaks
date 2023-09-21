@@ -2,7 +2,7 @@ const form = document.getElementById("password-form");
 const passwordInput = document.getElementById("password");
 const message = document.getElementById("message");
 
-const validPassword = "continue"; // Replace with your desired password
+const validPassword = "Password"; // Replace with your desired password
 
 form.addEventListener("submit", function (e) {
     e.preventDefault();
